@@ -31,7 +31,7 @@ components:
       deployment/memoryRequest: 10Mi
       deployment/container-port: 8081
     kubernetes:
-      uri: deploy.yaml
+      uri: 'https://github.com/Jdubrick/devfile-sample-go-basic/blob/main/deploy.yaml'
       endpoints:
       - name: http-8081
         targetPort: 8081
