@@ -31,7 +31,7 @@ components:
       deployment/memoryRequest: 10Mi
       deployment/container-port: 8081
     kubernetes:
-      uri: 'https://github.com/Jdubrick/devfile-sample-go-basic/blob/main/deploy.yaml'
+      uri: deploy.yaml
 commands:
   - id: build-image
     apply:
